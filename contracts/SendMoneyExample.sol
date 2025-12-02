@@ -16,4 +16,4 @@ contract sendMoney {
     function whitDrawToAddress(address payable to)public {
         to.transfer(getContractBalance());
     }
-}
+} 

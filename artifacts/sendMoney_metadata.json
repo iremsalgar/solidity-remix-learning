@@ -87,11 +87,11 @@
 	},
 	"sources": {
 		"contracts/SendMoneyExample.sol": {
-			"keccak256": "0x42987b7834f9772689e24db1e8c3419fdd014ba5b98a6336da748023abe8ee95",
+			"keccak256": "0x5a56ee88ebe03761f2a3762f954bc031ee4bfb29bf4909f4290df627c0f2db6a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dcd95b5e23c2350bd7be72e95569852ae1a052fd24be9e71f30c3065c15cf13a",
-				"dweb:/ipfs/QmWUrEUt8V3Sy66HEmFcQ4bVbhUioc5KriocqQWWPVxPEi"
+				"bzz-raw://185dd20c731e9c1d19ff59ff2f07e472bc87053df49f3cae5c8794ee794b30c3",
+				"dweb:/ipfs/QmRhkt2VrbdfxUecQ3fZXRFTusfv6mu5Ubm7vDnyGMisj6"
 			]
 		}
 	},
