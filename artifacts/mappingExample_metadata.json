@@ -8,55 +8,51 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "key",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
-				"name": "check",
+				"name": "balanceReceived",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"name": "myMapping",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "setBalance",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "key",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "value",
-						"type": "bool"
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
 					}
 				],
-				"name": "setValue",
+				"name": "withdrawAllMoney",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -75,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleMapping.sol": "Example"
+			"contracts/ExampleMappingTools.sol": "mappingExample"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -89,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleMapping.sol": {
-			"keccak256": "0x579f4e609663b65612dfdd0a6c88b70e09791e8e1a9084ccb731793bbc640fbc",
+		"contracts/ExampleMappingTools.sol": {
+			"keccak256": "0x0c6ed8a4fd9d1c96a901137c4f1f1e26f60e8f5df43f107d1d6282d2077b1d41",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5e7922d5632af4a24a2167e1f53903914cc96ffa9f2a649901aadae7aa1eb5aa",
-				"dweb:/ipfs/QmRoRsxraYunddXfjiq6n8y8ETcoadtMBvL5cHgFHT9yJZ"
+				"bzz-raw://4d01b0cde78b1523d57ff669572659bec1a777f3131613339a3b3392abb85bf5",
+				"dweb:/ipfs/QmeQMHtyFaucSyXnhcpv2txKYm6sVdztWZNKyutEnPMaDR"
 			]
 		}
 	},

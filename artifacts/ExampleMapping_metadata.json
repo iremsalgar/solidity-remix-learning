@@ -8,12 +8,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "key",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
-				"name": "check",
+				"name": "myAddressMapping",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -44,21 +44,70 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "setMyAdressToTrue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "key",
+						"name": "_key1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_key2",
 						"type": "uint256"
 					},
 					{
 						"internalType": "bool",
-						"name": "value",
+						"name": "_value",
 						"type": "bool"
+					}
+				],
+				"name": "setUintAdress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
 					}
 				],
 				"name": "setValue",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "unitBoolMap",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -75,7 +124,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleMapping.sol": "Example"
+			"contracts/ExampleMapping.sol": "ExampleMapping"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -90,11 +139,11 @@
 	},
 	"sources": {
 		"contracts/ExampleMapping.sol": {
-			"keccak256": "0x579f4e609663b65612dfdd0a6c88b70e09791e8e1a9084ccb731793bbc640fbc",
+			"keccak256": "0xd3d2c5279234313e0f46aa9a93e87561611fa01573be45502cf593accc5a1912",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5e7922d5632af4a24a2167e1f53903914cc96ffa9f2a649901aadae7aa1eb5aa",
-				"dweb:/ipfs/QmRoRsxraYunddXfjiq6n8y8ETcoadtMBvL5cHgFHT9yJZ"
+				"bzz-raw://762e2171b10307b918962cc2d052ae5f091031b801ae6ad24136172dc88d7561",
+				"dweb:/ipfs/QmYZU8VToa926VhJxSSza8BXVDhBWiJV4bSscwHjxMP4Ty"
 			]
 		}
 	},
